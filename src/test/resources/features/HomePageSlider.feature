@@ -12,7 +12,7 @@ Feature:This feature will make sure that the home page's slider is working prope
     Examples:
       | slide | buttonName     | related_Url                                                                                        |
       | 0     | Find out more  | https://www.playstation.com/en-gb/editorial/this-month-on-playstation/ultimate-review-of-the-year/ |
-      | 1     | Start shopping | https://www.playstation.com/en-gb/deals/playstation-holiday-gift-guide/                            |
+      | 1     | Start shopping | https://store.playstation.com/en-gb/category/60a63eee-cf2f-454c-ab40-0741571d6282                            |
       | 2     | Pre-order now  | https://www.playstation.com/en-gb/games/horizon-forbidden-west/                                                  |
       | 3     | Find out more  | https://www.playstation.com/en-gb/ps5/games/                                                       |
       | 4     | Find out more  | https://www.playstation.com/en-gb/games/grand-theft-auto-v/                                        |
