@@ -26,7 +26,7 @@ public class HomePageComingSoon_StepDefs {
     @When("the user scroll to New releases section")
     public void the_user_scroll_to_NewReleases_section(){
 
-        homePage.scrollDown(0,3200);
+        homePage.scrollDown(0,3250);
 
     }
 
