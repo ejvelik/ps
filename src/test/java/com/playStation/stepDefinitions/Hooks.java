@@ -13,8 +13,9 @@ public class Hooks {
 
     @Before
     public void setUpWindows(){
-        Dimension windowsSize = new Dimension(1920, 1080);
-        Driver.get().manage().window().setSize(windowsSize);
+        Driver.get().manage().window().maximize();
+//        Dimension windowsSize = new Dimension(1920, 1080);
+//        Driver.get().manage().window().setSize(windowsSize);
     }
 
     @Before
