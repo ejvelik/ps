@@ -30,6 +30,7 @@ public class HomePageSlider_StepDefs {
 
     @Then("the user should be able to navigate to {string}")
     public void the_user_should_be_able_to_navigate_to(String expected_Url) {
+        BrowserUtils.waitFor(1);
         String actual_Url= Driver.get().getCurrentUrl();
         assertEquals("Url does not match",expected_Url,actual_Url);
     }
