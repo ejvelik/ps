@@ -1,6 +1,6 @@
 Feature:This feature will make sure that the home page's slider is working properly.
 
-  @wip
+
   Scenario Outline:The “find out more”, “start shopping”, “Pre-order now” button is visible
   and intractable on the slider.
 
